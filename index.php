@@ -36,4 +36,8 @@ $app->get('/apple/push',function() use ($app){
     echo json_encode($result);
 });
 
+$app->get('/apple/push',function() use ($app){
+    echo "hello";
+});
+
 ?>
