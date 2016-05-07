@@ -1,0 +1,11 @@
+{
+    "require": {
+        "slim/slim": "2.*",
+        "apple/apn-push": "~2.1"
+    },
+    "autoload": {
+		"psr-4": {
+              "PHP_APN\\":"vendor/apn-push/src"
+		}
+    }
+}
